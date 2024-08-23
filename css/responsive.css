@@ -1,0 +1,365 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* global css for all  mobile */
+
+  p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .btn {
+    padding: 7px 14px;
+  }
+  .btn2 {
+    padding: 7px 14px 8px 14px;
+  }
+
+  /* ms auto used for nav link margin from the top */
+  .ms-auto {
+    margin-top: 25px;
+  }
+  a {
+    font-size: 11px;
+  }
+  /* Header start */
+  header {
+    padding: 0px 15px;
+  }
+  header nav img {
+    width: 100px !important;
+  }
+  header .text {
+    margin-top: 60px;
+    padding-bottom: 42px;
+    text-align: center;
+  }
+  header .text h5 {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  header .text h1 {
+    font-size: 33px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .text p {
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    line-height: 23px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  /* mobile img jeno na dekha jay tai display none kore disi */
+  header .mob img {
+    display: none;
+  }
+  header .nav-item .nav-link {
+    color: #fff !important;
+    position: relative;
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  /* toggler er img ta import korlam sathe eta jeno white color dekhay tai stroke white kore dilam ebong eta !important kore dilam jeno obviously show hoy */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-toggler {
+    border: 1px solid #fff !important;
+  }
+
+  header .nav-item .nav-link {
+    color: #fff !important;
+    position: relative;
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
+  /* Product */
+  .product {
+    padding-top: 50px 15px;
+    padding-bottom: 38px;
+    padding: 50px 15px;
+    text-align: center;
+    border-bottom: 1px solid rgb(215, 215, 215);
+  }
+  .product .heading-part h5 {
+    font-size: 11px;
+    margin-bottom: 7px;
+  }
+  .product .inner i {
+    font-size: 22px;
+    width: 55px;
+    height: 55px;
+    padding-top: 14px;
+    margin-bottom: 15px;
+  }
+  .product .inner p {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .product .inner h5 {
+    font-size: 17px;
+    color: #1a1a1a;
+  }
+  /* details start */
+  .details {
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .details .img img {
+    width: 76%;
+    height: 100%;
+  }
+  .details {
+    text-align: center;
+  }
+  .details .line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .details .img img {
+    width: 76%;
+    height: 100%;
+    margin: 0;
+  }
+  .details h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: uppercase;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+  }
+  .details p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    line-height: 21px;
+    width: 100%;
+  }
+  .details span {
+    font-size: 15px;
+  }
+  .details .heading-part {
+    padding-bottom: 70px;
+  }
+  /* customize start */
+  .customize {
+    background-color: #f2f2f2;
+    padding: 50px 15px;
+    text-align: center;
+  }
+  .customize .line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .customize .img img {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .customize p {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    line-height: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .customize h5 {
+    font-size: 11px;
+    margin-bottom: 7px;
+  }
+  /* testimonal start */
+  .testimonial {
+    padding: 50px 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial h5 {
+    font-size: 11px;
+  }
+  .testimonial .fl .text span {
+    font-size: 13px !important;
+    text-align: left !important;
+  }
+  .owl-carousel .item p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .owl-carousel .item .fl {
+    justify-content: center;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+  }
+  /* like start */
+  .like {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 15px;
+  }
+  .like .btn {
+    margin: 0px;
+    padding: 6px 12px;
+  }
+  .like h2 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 21px;
+    margin: 0;
+  }
+  /* price start */
+  .price {
+    padding: 50px 15px;
+    text-align: center;
+  }
+  .price .heading-part h5 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    text-align: center;
+  }
+  .price .box .first h3 {
+    padding: 25px 22px;
+    font-size: 17px;
+    font-weight: 700 !important;
+    margin: 0;
+  }
+  .price .box .part-2 h4 {
+    font-size: 34px;
+    margin: 0px;
+    font-weight: 700;
+  }
+  .price .box .part-3 p {
+    padding: 12px 27px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .price .box .butt {
+    padding: 10px 6px;
+  }
+  .price .box .butt a {
+    font-size: 12px;
+  }
+  /* Contact start */
+  .contact {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #ededed;
+  }
+  .contact .heading-part h5 {
+    font-size: 12px;
+  }
+
+  .form-control {
+    padding: 10px;
+    font-size: 13px;
+  }
+  textarea.form-control {
+    padding-bottom: 102px;
+  }
+
+  .contact .contact-box {
+    padding: 34px 30px;
+    width: 95%;
+  }
+  /* footer start */
+  footer {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  footer .icon i {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 8px;
+  }
+  footer .icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer p {
+    margin-top: 7px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0px !important;
+  }
+}
